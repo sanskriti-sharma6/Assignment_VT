@@ -1,0 +1,49 @@
+body{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  
+
+}
+body::before{
+    background-image: url("attendance.jpg");
+    background-attachment: fixed;
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.card{
+    padding: 50px;
+    margin: 20px;
+ 
+    
+}
+input{margin: 10px;}
+.container{
+    border: 6px double #842029;
+    padding: 30px;
+    position: relative;
+    top: 60px;
+}
+
+.col{
+    padding: 10px;
+}
+.navbar{
+    background-color: #f8d7da;
+} 
+.nav-link{
+    color: #842029 !important;
+}
+h1{
+    font-size: 60;
+    font-weight: bolder;
+}
